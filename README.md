@@ -1,4 +1,4 @@
-# ROS2_Path_Planning
+# ROS2_Path_Planning : Maze Solving using Computer Vision In ROS2
 this is ROS2 Project Repository about Path Planning!
 
 # Repository
