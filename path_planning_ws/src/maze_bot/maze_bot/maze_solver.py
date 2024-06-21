@@ -1,27 +1,4 @@
-'''
-> Purpose :
-Node to perform the actual (worthy of your time) task of maze solving ;) 
-- Robot velocity interface
-- Upper Video camera as well
 
-> Usage :
-You need to write below command in terminal where your pacakge is sourced
-- ros2 run maze_bot maze_solver
-
-Note : Name of the node is actually name of executable file described in setup.py file of our package and not the name of python file
-
-> Inputs:
-This node is subscribing video feed from (Satellite or DroneCam)
-
-> Outputs:
-This node publishes on topic "/cmd_vel" , the required velocity ( linear and angular ) to move the robot
-
-Author :
-Haider Abbasi
-
-Date :
-18/03/22
-'''
 
 import rclpy
 from rclpy.node import Node
