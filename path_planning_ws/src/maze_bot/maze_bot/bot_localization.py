@@ -1,29 +1,3 @@
-'''
-> Purpose :
-Module to perform localization of robot using Background Subtraction.
-
-> Usage :
-You can perform localization of the robot by
-1) Importing the class (bot_localizer)
-2) Creating its object
-3) Accessing the object's function of localize bot. 
-E.g ( self.bot_localizer.localize_bot(self.sat_view, frame_disp) )
-
-
-> Inputs:
-1) Extracted frame from video feed of (Satellite or DroneCam)
-2) Frame To display the localized robot
-
-> Outputs:
-1) self.car_loc => Cordinates (X,Y) of the localized car
-2) self.maze_og => Occupancy Grid generated from the cropped maze
-
-Author :
-Haider Abbasi
-
-Date :
-6/04/22
-'''
 import cv2
 import numpy as np
 
